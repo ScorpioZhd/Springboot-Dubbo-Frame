@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Springboot-Dubbo-Frame.iml" filepath="$PROJECT_DIR$/Springboot-Dubbo-Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame-common-api/frame-common-api.iml" filepath="$PROJECT_DIR$/frame-common-api/frame-common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame-consumer/frame-consumer.iml" filepath="$PROJECT_DIR$/frame-consumer/frame-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame-provider/frame-provider.iml" filepath="$PROJECT_DIR$/frame-provider/frame-provider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="frame-provider" />
+        <module name="frame-consumer" />
+        <module name="frame-common-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="frame-common-api" target="1.7" />
+      <module name="frame-consumer" target="1.7" />
+      <module name="frame-provider" target="1.7" />
+      <module name="Springboot-Dubbo-Frame" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="frame-consumer" options="-parameters" />
+      <module name="frame-provider" options="-parameters" />
+    </option>
+  </component>
+</project>
